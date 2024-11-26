@@ -1,0 +1,841 @@
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-img {
+    flex: 1; /* Flex-grow */
+    text-align: center;
+}
+
+.about-img img {
+    width: 250px; /* Adjust size as needed */
+    border-radius: 50%; /* Circular image */
+    border: 2px solid #333; /* Border color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.about-content {
+    flex: 2; /* Flex-grow */
+    padding: 20px;
+    text-align: left;
+}
+
+.about-content .heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-content .heading span {
+    color: #ff6347; /* Highlight color */
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.8; /* Improved readability */
+}
+
+.about-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.about-content .btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Contact Section Styles */
+.contact {
+    max-width: 800px;
+    margin: 50px auto; /* Centering the section */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+}
+
+.contact .heading {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact .heading span {
+    color: #ff6347; /* Highlight color */
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px; /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-box input:last-child {
+    margin-right: 0; /* Remove margin for the last input */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical; /* Allow vertical resizing */
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6347; /* Button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    border: none; /* Remove border for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    max-width: 1200px;
+    margin: 50px auto; /* Centering the section */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+.portfolio .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio .heading span {
+    color: #ff6347; /* Highlight color */
+}
+
+.portfolio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.portfolio span {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+
+
+
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Contact Section Styles */
+.Mycontact {
+    max-width: 800px;
+    margin: 50px auto; /* Centering the section */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+}
+
+.Mycontact .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.Mycontact .heading span {
+    color: #ff6347; /* Highlight color */
+}
+
+.socmed {
+    display: flex;
+    justify-content: center; /* Center the social media icons */
+    margin-top: 20px;
+}
+
+.socmed a {
+    margin: 0 15px; /* Space between icons */
+}
+
+.socmed img {
+    width: 50px; /* Set a fixed width for icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Add transition for hover effect */
+}
+
+.socmed img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+
+
+
+/* style.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.index {
+    list-style: none;
+    display: flex;
+}
+
+.index li {
+    margin: 0 15px;
+}
+
+.index a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.index a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Home Section Styles */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.home-content {
+    max-width: 600px; /* Limit the width of the content */
+}
+
+.home-content h3 {
+    font-size: 24px;
+    color: #333; /* Dark color for the subtitle */
+}
+
+.home-content h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #ff6347; /* Highlight color for the name */
+}
+
+.home-content h3 span {
+    color: #555; /* Color for the profession */
+}
+
+.home-content p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666; /* Medium gray for the paragraph text */
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.home-img {
+    margin-top: 20px;
+}
+
+.home-img img {
+    width: 200px; /* Set a fixed width for the profile image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    background: #f9f9f9; /* Light background for contrast */
+}
+
+.about-img {
+    flex: 1;
+}
+
+.about-img img {
+    width: 100%; /* Responsive image */
+    max-width: 300px; /* Limit max width */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.about-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.about-content .heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666; /* Medium gray for the paragraph text */
+}
+
+/* Footer Styles */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social {
+    margin-bottom: 10px;
+}
+
+.footer .social a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer .social a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.footer .copyright {
+    font-size: 14px;
+}
+
+
+
+
+
+/* Contact Section Styles */
+.contactme {
+    padding: 50px 20px; /* Padding for the contact section */
+    background-color: #f4f4f4; /* Light background color */
+    text-align: center; /* Center align text */
+}
+
+.contactme .heading {
+    font-size: 28px; /* Font size for heading */
+    margin-bottom: 20px; /* Space below heading */
+    color: #333; /* Dark color for heading */
+}
+
+.contactme span {
+    color: #ff6347; /* Tomato color for emphasized text */
+}
+
+.input-box {
+    display: flex; /* Flexbox for input fields */
+    justify-content: space-between; /* Space between input fields */
+    margin-bottom: 20px; /* Space below input box */
+}
+
+.input-box input {
+    width: 48%; /* Width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for input fields */
+}
+
+.input-box input:focus {
+    border-color: #ff6347; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+textarea {
+    width: 100%; /* Full width for textarea */
+    padding: 10px; /* Padding inside textarea */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for textarea */
+    margin-bottom: 20px; /* Space below textarea */
+    resize: none; /* Disable resizing */
+}
+
+textarea:focus {
+    border-color: #ff6347; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+.btn {
+    background: #ff6347; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background 0.3s; /* Smooth background transition */
+}
+
+.btn:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .input-box {
+        flex-direction: column; /* Stack input fields vertically on small screens */
+    }
+
+    .input-box input {
+        width: 100%; /* Full width for input fields */
+        margin-bottom: 10px; /* Space below input fields */
+    }
+}
